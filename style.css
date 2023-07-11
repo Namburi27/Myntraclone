@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@100&family=Tilt+Prism&display=swap');
+html,body{
+    height:100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    height: 66px;
+    width: 93%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+nav{
+    font-size: 12px;
+    padding-top: 14px;
+}
+.left img{
+    width: 38px;
+    height:25px;
+}
+
+.container{
+    padding: 0 5vw;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 600;
+}
+nav ul li:hover{
+    color:rgb(240, 78, 194);
+}
+
+.section1{
+    background:white;
+    text-align:center ;
+}
+.container h1{
+    background: linear-gradient(to bottom, rgb(216, 125, 14) 0%, rgba(254, 144, 1, 0.952) 20%, rgb(251, 106, 3) 61%), linear-gradient(rgb(249, 139, 5) 52%, rgb(254, 67, 4) 60%, rgb(251, 73, 2) 61%);
+    font-size: 40px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.container h2{
+    color:rgb(4, 4, 71);
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 25px;
+    line-height: 0px;
+}
+
+.searchbar{
+    width:34vw;
+
+    padding: 7px 10px;
+    border-radius: 5px;
+    background:#f7f8fd;
+    border: none;
+}
+
+input[type="search"] {
+    color: black;
+  }
+#homeimg{
+    width:80vw;
+    padding-top: 100px;
+
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    
+  }
+  .col {
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    border-radius: 10px;
+  }
+  .col img {
+    width: 100%;
+    height: 100%;
+  }
+.trend img{
+    display: block;
+    width: 100%;
+}
+
+.cols {
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    border-radius: 10px;
+  }
+
+  .cols img {
+    width: 120%;
+    height: 100%;
+  }
+
+  .rows {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap:70px;
+  }
+
+
+#left{
+    float: inline-start;
+}
+
+.bottom{
+    background-color: #f2f2f2;
+}
+#left img{
+    height:50px;
+    width:100px;
+}
+
+#left div{
+        padding: 0 30px;
+}
+ #left div p{
+    color:rgb(143, 143, 143);
+ }
+
+ .container2{
+    padding-top: 30px;
+    background: #f2f2f2;
+ }
+p{
+    color:rgb(143, 143, 143);
+    text-align: justify;
+}
